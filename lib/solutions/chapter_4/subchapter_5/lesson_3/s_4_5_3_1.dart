@@ -9,28 +9,6 @@ class S4531 extends StatelessWidget {
   }
 }
 
-@override
-Widget build(BuildContext context) {
-  return MaterialApp(
-    home: Scaffold(
-      body: Center(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-          CustomColumn(color: Colors.blueGrey,),
-          SizedBox(width: 10),
-          CustomColumn(color: Colors.blue,),
-          SizedBox(width: 10,),
-          CustomColumn(color: Colors.cyan,),
-            ]
-
-          )
-
-        ),
-
-    ),
-  );
-}
 
 class CustomColumn extends StatelessWidget {
   final Color? color;
